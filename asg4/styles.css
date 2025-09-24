@@ -5,3 +5,15 @@ h1, h2 {
 li {
   font-family: "EB Garamond", serif;
 }
+
+table, th, td {
+  border: 1px solid;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+}
