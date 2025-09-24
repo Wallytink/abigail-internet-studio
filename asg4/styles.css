@@ -1,8 +1,8 @@
-h1, h2 {
+h1, h2, th {
   font-family: "Oswald", sans-serif;
 }
 
-li {
+li, td {
   font-family: "EB Garamond", serif;
 }
 
