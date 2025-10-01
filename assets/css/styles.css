@@ -1,5 +1,4 @@
-/* styles.css */
-
-* {
-	font-family: Arial;
+h1, h2 {
+	color: rgb(37,41,28);
+	font-family: "Titan One", sans-serif;
 }
