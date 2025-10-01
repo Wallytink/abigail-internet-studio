@@ -46,9 +46,5 @@ article {
     background-color: rgb(117,219,205);
 	margin-bottom: 20px;
 	border-radius: 15px 15px 15px 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-
+    padding: 10px 20px 10px 20px;
 }
