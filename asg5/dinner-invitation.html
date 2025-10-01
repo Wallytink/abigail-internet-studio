@@ -40,13 +40,24 @@ hh<!doctype html>
 	</ul>
   <h2>RSVP Form</h2>
 	<form>
+		<section class="name">
 		<label for="name">Your Name:</label>
 		<input type="text" name="name">
-		<label for="guest">Will you be bringing a guest?</label>
-		<input name="guest" type="radio" value="yes">
-		<input name="guest" type="radio" value="no">
+		</section>
+		<hr>
+		<section class="guest">
+		<span>Will you be bringing a guest?</span>
+		<br>
+		<input name="guest" type="radio" id="yes" value="yes">
+		<label for="yes">Yes</label>
+		<input name="guest" type="radio" id="no" value="no">
+		<label for="no">No</label>
+		</section>
+		<hr>
+		<section class="diet">
 		<label for="diet">Any Dietary Preferences:</label>
 		<textarea rows="10" cols="30" name="diet"></textarea>
+		</section>
 	</form>
 	</article>
 </body>
