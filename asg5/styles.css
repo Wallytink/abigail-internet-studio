@@ -1,1 +1,8 @@
-
+body {
+  background-color: #d5d5d5;
+  opacity: 1;
+  background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #848484, #848484 50%, #d5d5d5 50%);
+  background-size: 10px 10px;
+	padding: 0 20px 20px 20px;
+  margin: 0;
+}
