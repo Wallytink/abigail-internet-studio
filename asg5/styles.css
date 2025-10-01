@@ -9,6 +9,13 @@ body {
 
 h2, h3 {
 	font-family: "Parisienne", cursive;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
 	font-size: 2em;
 }
 
@@ -19,7 +26,7 @@ p, li {
 
 #logo {
     font-family: "Ballet", cursive;
-    font-size: 4em;
+    font-size: 5em;
     color: black);
     text-align: center;
     margin-bottom: 30px;
