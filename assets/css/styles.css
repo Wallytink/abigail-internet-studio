@@ -1,4 +1,21 @@
+body {
+	background-color: rgb(151,153,202)
+}
+	
 h1, h2 {
-	color: rgb(37,41,28);
 	font-family: "Titan One", sans-serif;
+	border-bottom: 2px solid rgb(180,122.234);
+}
+
+h1 {
+	color: rgb(117,219,205);
+}
+
+h2 {
+	color: rgb(37,41,28);
+}
+
+p {
+	color: rgb(37,41,28);
+	font-family: "Lexend", sans-serif;
 }
