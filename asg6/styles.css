@@ -1,0 +1,96 @@
+body {
+  background-image: url("/Users/abiga/Downloads/Fall 2025/Internet Studio I/Week 6/asg6/images/moroccan-flower-dark.png");
+}
+
+h1, h2, h3 {
+  font-family: "Titan One", sans-serif;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+p {
+  font-family: "Lexend", sans-serif;
+  font-size: 1em;
+  line-height: 120%;
+}
+
+img {
+  float: right;
+}
+
+#title {
+  font-family: "Titan One", sans-serif;
+  color: rgb(30, 38, 112);
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: rgb(51, 132, 187);
+  border-radius: 15px 15px 15px 15px;
+  padding: 15px;
+}
+
+.whitehat {
+  background-color: white;
+	margin-bottom: 20px;
+	border-radius: 15px 15px 15px 15px;
+  padding: 10px 20px;
+  color: rgb(151, 151, 151)
+}
+
+.redhat {
+  background-color: rgb(122, 25, 25);
+	margin-bottom: 20px;
+	border-radius: 15px 15px 15px 15px;
+  padding: 10px 20px;
+  color:rgb(71, 5, 5)
+}
+
+.blackhat {
+  background-color: black;
+	margin-bottom: 20px;
+	border-radius: 15px 15px 15px 15px;
+  padding: 10px 20px;
+  color: rgb(83, 83, 83)
+}
+
+.yellowhat {
+  background-color: rgb(216, 185, 47);
+	margin-bottom: 20px;
+	border-radius: 15px 15px 15px 15px;
+  padding: 10px 20px;
+  color:rgb(110, 93, 14)
+}
+
+.greenhat {
+  background-color: rgb(28, 97, 28);
+	margin-bottom: 20px;
+	border-radius: 15px 15px 15px 15px;
+  padding: 10px 20px;
+  color: rgb(0, 41, 10);
+}
+
+.bluehat {
+  background-color: rgb(42, 42, 151);
+	margin-bottom: 20px;
+	border-radius: 15px 15px 15px 15px;
+  padding: 10px 20px;
+  color: rgb(2, 7, 53);
+}
+
+.changes {
+  background-color: rgb(51, 132, 187);
+	margin-bottom: 20px;
+	border-radius: 15px 15px 15px 15px;
+  padding: 10px 20px;
+  color: rgb(30, 38, 112);
+}
