@@ -29,6 +29,7 @@ img {
   float: right;
 }
 
+/* title of page */
 #title {
   font-family: "Titan One", sans-serif;
   color: rgb(30, 38, 112);
@@ -39,6 +40,7 @@ img {
   padding: 15px;
 }
 
+/* section for white hat */
 .whitehat {
   background-color: white;
 	margin-bottom: 20px;
@@ -47,6 +49,7 @@ img {
   color: rgb(151, 151, 151)
 }
 
+/* section for red hat */
 .redhat {
   background-color: rgb(122, 25, 25);
 	margin-bottom: 20px;
@@ -55,6 +58,7 @@ img {
   color:rgb(71, 5, 5)
 }
 
+/* section for black hat */
 .blackhat {
   background-color: black;
 	margin-bottom: 20px;
@@ -71,6 +75,7 @@ img {
   color:rgb(110, 93, 14)
 }
 
+/* section for green hat */
 .greenhat {
   background-color: rgb(28, 97, 28);
 	margin-bottom: 20px;
@@ -79,6 +84,7 @@ img {
   color: rgb(0, 41, 10);
 }
 
+/* section for blue hat */
 .bluehat {
   background-color: rgb(42, 42, 151);
 	margin-bottom: 20px;
@@ -87,6 +93,7 @@ img {
   color: rgb(2, 7, 53);
 }
 
+/* section for project changes */
 .changes {
   background-color: rgb(51, 132, 187);
 	margin-bottom: 20px;
