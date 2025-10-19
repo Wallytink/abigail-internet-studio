@@ -1,0 +1,80 @@
+/* abril-fatface-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/abril-fatface-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* alan-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alan Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/alan-sans-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  background-image: url(images/swirl_pattern.webp);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Abril Fatface';
+  color: rgb(30, 20, 124);
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+p {
+  font-size: 1em;
+}
+
+p, ul {
+  font-family: 'Alan Sans';
+  line-height: 1.7;
+}
+
+aside {
+ color: white;
+ text-align: center;
+ width: 25%;
+ float: right;
+ margin: 10px;
+ background-color: rgb(61, 90, 172);
+ padding: 10px 20px; 
+ border: 10px solid rgb(30, 20, 124); 
+ border-radius: 10px;
+ box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+
+aside h1, aside h2 {
+  color: white;
+}
+
+/*heading for sidebar*/
+.header {
+  background-color: rgb(30, 20, 124);
+  margin: -10px -20px 20px -20px;
+  padding: 0 15px 10px 15px;
+}
+
+/*title for page*/
+.title {
+  text-align: center;
+  font-size: 3em;
+}
