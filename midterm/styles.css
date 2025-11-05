@@ -1,0 +1,164 @@
+/* fraunces-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/fraunces-v38-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* khula-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Khula';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/khula-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+nav ul {
+    font-family: 'Khula';
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav ul a {
+    display: flex;
+    background-color: rgb(115, 40, 158);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+footer nav ul li {
+    display: flex;
+    background-color: rgb(115, 40, 158);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(171, 144, 187);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Fraunces', sans-serif;
+    color: rgb(115, 40, 158);
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Fraunces', sans-serif;
+    color: rgb(115, 40, 158);
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(115, 40, 158);
+}
+
+p, li {
+    font-family: 'Khula';
+    font-size: 1em;
+    color: white;
+}
+
+a {
+    font-family: 'Khula';
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#title {
+  font-family: 'Fraunces', sans-serif;
+  color: rgb(115, 40, 158);
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+header {
+    border: 10px solid rgb(115, 40, 158); 
+    background-color: white;
+    padding: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-top: 10px solid rgb(115, 40, 158);
+}
+
+.fact {
+    display: inline-block;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 200px;
+    text-align: center;
+    gap: 15px;
+    background-color: white;
+	margin-bottom: 20px;
+	border-radius: 15px 15px 15px 15px;
+    padding: 10px 20px;
+    color: rgb(115, 40, 158);
+    border: 5px solid rgb(115, 40, 158);
+    font-size: 1.2em;
+}
+
+nav a {
+  transition: transform .5s,
+              background-color .5s;
+}
+
+nav a:hover {
+	background-color: rgb(171, 144, 187);
+    transform: scale(1.25);
+}
+
+footer nav li {
+  transition: transform .5s,
+              background-color .5s;
+}
+
+footer nav li:hover {
+	background-color: rgb(171, 144, 187);
+    transform: scale(1.25);
+}
+
+footer p {
+    color: rgb(115, 40, 158);
+}
+
+.image {
+    float: left;
+    margin: 20px;
+}
+
+.place {
+	border-radius: 15px 15px 15px 15px;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+.citations a:hover {
+    text-decoration: underline;
+}
+
+form {
+    text-align: center;
+    color: white;
+    font-family: 'Khula';
+}
