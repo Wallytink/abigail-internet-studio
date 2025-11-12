@@ -1,0 +1,104 @@
+/* alkatra-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alkatra';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/alkatra-v5-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* ancizar-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Ancizar Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/ancizar-sans-v8-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Fluid Type Scale*/
+html {font-size: 16px;}
+
+body {
+  font-family: 'Alkatra', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Alkatra', sans-serif;
+  font-weight: true;
+  line-height: 1.15;
+}
+
+h1,
+.text-size-h1 {
+  font-family: 'Alkatra', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 4.21em;
+}
+
+h2,
+.text-size-h2 { font-size: 3.16em; }
+
+h3,
+.text-size-h3 { font-size: 2.37em; }
+
+h4,
+.text-size-h4 { font-size: 1.78em; }
+
+h5,
+.text-size-h5 { font-size: 1.33em; }
+
+.text-caption { font-size: 0.75em; }
+
+small,
+.text-small {
+  font-size: 0.56em;
+}
+/*Fluid Type Scale end*/
+
+body {
+  background-image: linear-gradient( rgb(233, 233, 205), rgb(190, 190, 149));
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1, h2 {
+  color: rgb(153, 112, 0);
+}
+
+p {
+  font-family: 'Ancizar Sans';
+}
+
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  flex-direction: row;
+}
+
+.character {
+  border: 10px solid rgb(153, 112, 0); 
+  background-color: rgb(238, 238, 231);
+  border-radius: 10px;
+  margin: 10px 20px; 
+  padding: 5px 10px; 
+  width: 350px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
